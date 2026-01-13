@@ -51,5 +51,3 @@ A structured 14-day intensive technical program to master the foundations of Art
 ## 📫 Let's Connect
 - **GitHub Profile:** [@ScienzGuy](https://github.com/ScienzGuy)
 - **Status:** Actively upskilling for a March 2026 career relaunch.
-How to customize this:
-The "Green Circles": As you finish a week, change the ⚪ or 🟡 to a 🟢. It’s a small visual cue that you are finishing what you started.
