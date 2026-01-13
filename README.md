@@ -53,7 +53,3 @@ A structured 14-day intensive technical program to master the foundations of Art
 - **Status:** Actively upskilling for a March 2026 career relaunch.
 How to customize this:
 The "Green Circles": As you finish a week, change the ⚪ or 🟡 to a 🟢. It’s a small visual cue that you are finishing what you started.
-
-The Links: Once you create the files in your Daily-Logs folder, make sure the links in the README actually point to them (e.g., [Day 1](./Daily-Logs/Day-01.md)).
-
-Visual Proof: As we discussed, don't be afraid to embed a screenshot of a high quiz score or an AWS Console successful run inside your daily logs.
