@@ -36,14 +36,6 @@ Polaris is a core component of the broader laboratory ecosystem:
 * **Theia:** Provides the telemetry dashboard for hardware health and signal strength.
 * **TON618:** Utilizes secure VPN tunnels for remote management of the Polaris tracking node.
 
-## Installation
+---
 
-```bash
-# Clone the telemetry tools
-git clone [https://github.com/ScienzGuy/Polaris.git](https://github.com/ScienzGuy/Polaris.git)
-
-# Initialize the SDR environment and dependencies
-sudo ./scripts/setup_sdr_env.sh
-
-# Start the tracking daemon
-sudo systemctl enable --now polaris-tracker.service
+Maintained by Scienz_Guy | 2026
