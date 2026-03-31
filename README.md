@@ -1,10 +1,10 @@
-# Polaris: Real-Time ADS-B Telemetry & Aerial Data Pipeline
+miniNORAD: Real-Time ADS-B Telemetry & Aerial Data Pipeline
 
-Polaris is a high-performance tracking station and data engineering pipeline designed to ingest, decode, and visualize real-time ADS-B (Automatic Dependent Surveillance–Broadcast) telemetry. Built on a **Raspberry Pi 5** architecture, the project demonstrates the integration of Software Defined Radio (SDR) with modern data processing workflows to monitor global aviation traffic from a localized terrestrial position.
+miniNORAD is a high-performance tracking station and data engineering pipeline designed to ingest, decode, and visualize real-time ADS-B (Automatic Dependent Surveillance–Broadcast) telemetry. Built on a **Raspberry Pi 5** architecture, the project demonstrates the integration of Software Defined Radio (SDR) with modern data processing workflows to monitor global aviation traffic from a localized terrestrial position.
 
 ## Project Overview
 
-In modern aviation, ADS-B is the primary standard for tracking aircraft positions via satellite navigation. Polaris captures these raw 1090MHz radio frequency broadcasts, decodes the Mode S packets, and transforms them into structured data for analysis. This project serves as a testbed for handling high-velocity streaming data, signal optimization, and edge-compute resource management.
+In modern aviation, ADS-B is the primary standard for tracking aircraft positions via satellite navigation. The system captures these raw 1090MHz radio frequency broadcasts, decodes the Mode S packets, and transforms them into structured data for analysis. This project serves as a testbed for handling high-velocity streaming data, signal optimization, and edge-compute resource management.
 
 ## Technical Stack
 
@@ -16,7 +16,7 @@ In modern aviation, ADS-B is the primary standard for tracking aircraft position
 
 ## Hardware Engineering & Environmental Hardening
 
-To ensure 24/7/365 operational continuity, Polaris is housed in a custom-engineered, weatherproof enclosure designed to withstand the Mid-Atlantic climate of Wilmington, DE. This external deployment minimizes RF interference and maximizes line-of-sight signal acquisition for the 1090MHz antenna.
+To ensure 24/7/365 operational continuity, miniNORAD is housed in a custom-engineered, weatherproof enclosure designed to withstand the Mid-Atlantic climate of Wilmington, DE. This external deployment minimizes RF interference and maximizes line-of-sight signal acquisition for the 1090MHz antenna.
 
 ### Enclosure Specifications:
 * **Climate Control:** Integrated passive and active cooling systems to manage the thermal output of the Raspberry Pi 5 during peak summer temperatures.
@@ -51,7 +51,7 @@ Beyond simple tracking, Polaris explores several complex engineering challenges:
 
 ## High-Priority Event Orchestration (Telegraph)
 
-Polaris includes a specialized "Telegraph" notification engine designed to identify and alert on high-interest aerial targets in real-time. By cross-referencing live Hex codes against curated databases, the system pushes instant notifications to mobile devices when specific criteria are met.
+miniNORAD includes a specialized "Telegraph" notification engine designed to identify and alert on high-interest aerial targets in real-time. By cross-referencing live Hex codes against curated databases, the system pushes instant notifications to mobile devices when specific criteria are met.
 
 ### Alert Categories:
 * **Military & Government:** Identification of transport, tactical, and surveillance aircraft operating within the local sector.
@@ -65,7 +65,7 @@ Polaris includes a specialized "Telegraph" notification engine designed to ident
 
 ## Ecosystem Integration
 
-Polaris is a core component of the broader laboratory ecosystem:
+miniNORAD is a core component of the broader laboratory ecosystem:
 * **Theia:** Provides the telemetry dashboard for hardware health and signal strength.
 * **TON618:** Utilizes secure VPN tunnels for remote management of the Polaris tracking node.
 
