@@ -1,4 +1,4 @@
-miniNORAD: Real-Time ADS-B Telemetry & Aerial Data Pipeline
+# miniNORAD: Real-Time ADS-B Telemetry & Aerial Data Pipeline
 
 miniNORAD is a high-performance tracking station and data engineering pipeline designed to ingest, decode, and visualize real-time ADS-B (Automatic Dependent Surveillance–Broadcast) telemetry. Built on a **Raspberry Pi 5** architecture, the project demonstrates the integration of Software Defined Radio (SDR) with modern data processing workflows to monitor global aviation traffic from a localized terrestrial position.
 
