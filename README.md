@@ -24,7 +24,7 @@ To ensure 24/7/365 operational continuity, miniNORAD is housed in a custom-engin
 * **Power Delivery:** Surge-protected Power-over-Ethernet (PoE) implementation, allowing for a single-cable deployment for both data and high-stability power.
 
 ### Infrastructure Monitoring & Alerting:
-The enclosure is a "smart" node integrated directly into the **Theia** observability suite. Polaris doesn't just track aircraft; it tracks its own health:
+The enclosure is a "smart" node integrated directly into the **Theia** observability suite. miniNORAD doesn't just track aircraft; it tracks its own health:
 * **Thermal Watchdog:** Real-time monitoring of CPU and SDR temperatures. If thresholds are breached, the system triggers an automated fan-curve adjustment or a graceful thermal throttle.
 * **Power Analytics:** Monitoring for voltage drops or power instability that could indicate hardware fatigue or cable degradation.
 * **System Health Alerts:** Critical hardware failures (e.g., SDR disconnects or storage read/write errors) are dispatched via the **Telegraph** (Telegram) alert engine for immediate remediation.
@@ -44,7 +44,7 @@ The physical design prioritizes modularity, allowing for rapid component swaps (
 
 ## Engineering & Research Goals
 
-Beyond simple tracking, Polaris explores several complex engineering challenges:
+Beyond simple tracking, miniNORAD explores several complex engineering challenges:
 1. **RF Signal Optimization:** Tuning gain levels and managing signal-to-noise ratios (SNR) in a high-interference urban environment.
 2. **Stream Processing:** Minimizing the "glass-to-glass" latency between radio packet reception and visual mapping.
 3. **Hardware Benchmarking:** Evaluating the thermal and computational overhead of the Raspberry Pi 5 when processing high-density airspace data (up to 2,000+ messages per second).
@@ -67,7 +67,7 @@ miniNORAD includes a specialized "Telegraph" notification engine designed to ide
 
 miniNORAD is a core component of the broader laboratory ecosystem:
 * **Theia:** Provides the telemetry dashboard for hardware health and signal strength.
-* **TON618:** Utilizes secure VPN tunnels for remote management of the Polaris tracking node.
+* **TON618:** Utilizes secure VPN tunnels for remote management of the miniNORAD tracking node.
 
 ---
 
