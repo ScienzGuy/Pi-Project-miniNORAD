@@ -6,8 +6,6 @@ Polaris is a high-performance tracking station and data engineering pipeline des
 
 In modern aviation, ADS-B is the primary standard for tracking aircraft positions via satellite navigation. Polaris captures these raw 1090MHz radio frequency broadcasts, decodes the Mode S packets, and transforms them into structured data for analysis. This project serves as a testbed for handling high-velocity streaming data, signal optimization, and edge-compute resource management.
 
-
-
 ## Technical Stack
 
 * **Hardware:** Raspberry Pi 5 (8GB), FlightAware Pro Stick Plus (SDR USB Stick), and a 1090MHz ADS-B specialized high-gain antenna.
